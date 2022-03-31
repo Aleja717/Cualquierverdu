@@ -51,6 +51,8 @@
             border-style: solid;
             transition: flex;
             transition: 2s;
+            background: linear-gradient(to right, #a4ca5d, white 20%)
+
             }
 main ul li :hover{
     font-size: 102%;
