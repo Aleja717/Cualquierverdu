@@ -50,7 +50,7 @@
             font-family: 'Lobster', cursive;
             border-style: solid;
             transition: flex;
-            transition: 2s;
+            transition: 2,5s;
             
             }
 main ul li :hover{
