@@ -5,42 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros productos</title>
-    <link rel="stylesheet" href="estilos/css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../multimedia/favi.ico" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 
-
-
 <body>
-
-
-<header>
+    <header>
     
     <img src="../multimedia/perfil.jpg" alt="cualquierverdura" height="400">
    
 
-        <h1 class="titulo">Cualquier Verdura</h1>
-        <br>
-        <h2 class="tituloDos">Comida saludable</h2>
-        <br>
+    <h1 class="titulo col-sm-12 col-ms-12 col-lg-12">Cualquier Verdura</h1>
+    <br>
+    <h2 class="tituloDos col-sm-12 col-ms-12 col-lg-12">Comida saludable</h2>
+<br>
         
-        <main class="bordemenu">
-       <ul>
-         
-              <li><a href="../paginas/NUESTROSPRODUCTOS.html">Nuestros productos</a></li>  
-              <li><a href="../paginas/COMOLASHAGO.html">¿Como las hago?</a></li> 
-              <li><a href="../paginas/SOBRENOSOTROS.html">Sobre nosotros</a></li> 
-              <li><a href="../paginas/CONTACTO.html">Contacto</a></li> 
+
+        <div class="nav row">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <ul>
+                  <li><a href="../paginas/NUESTROSPRODUCTOS.html">Nuestros productos</a></li> 
+                  <li><a href="../paginas/COMOLASHAGO.html">¿Como las hago?</a></li> 
+                   <li><a href="../paginas/SOBRENOSOTROS.html">Sobre nosotros</a></li> 
+                   <li><a href="../paginas/CONTACTO.html">Contacto</a></li> 
              </ul>
-            </main>
+                <span class="text-muted">Cualquier Verdu</span>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
         </header> 
+      </div>
+      
+      
 
-
-   <div class="nProdu"> 
+ 
 
     <h1 class="burguers">HAMBURGUESAS</h1>
         <ul class="tipoBurguer">    
@@ -56,23 +65,48 @@
         </ul> 
   
 
-<article class="carreteProductos">
-<img src="../multimedia/las3.jpg" alt="foto2" height="200">
-<img src="../multimedia/3.jpg" alt="foto3" height="200">
-<img src="../multimedia/5.jpg" alt="foto5" height="200">
-<img src="../multimedia/arroz.jpg" alt="arroz" height="200">
-<img src="../multimedia/6.jpg" alt="foto6" height="200">
-<img src="../multimedia/7.jpg" alt="foto7" height="200">
-<img src="../multimedia/zanahoria.jpg" alt="zanahoria" height="200">
-</article>
-</div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../multimedia/las3.jpg" class="d-block w-50" alt="100">
+            </div>
+            <div class="carousel-item">
+              <img src="../multimedia/3.jpg" class="d-block w-50" alt="100">
+            </div>
+            <div class="carousel-item">
+              <img src="../multimedia/5.jpg" class="d-block w-50" alt="100">
+            </div>
+            <div class="carousel-item">
+              <img src="../multimedia/arroz.jpg" class="d-block w-50" alt="100">
+            </div>
+            <div class="carousel-item">
+              <img src="../multimedia/6.jpg" class="d-block w-50" alt="100">
+            </div>
+            <div class="carousel-item">
+              <img src="../multimedia/7.jpg" class="d-block w-50" alt="100">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+
+        
     <div class="principal">
     <a href="../index.html" > Ir a pagina principal</a>    
-    </div>
-    
+   
 
     <footer class="footer">
-        <a href="http://www.facebook.com.ar"> <img src="../multimedia/4202110facebooklogosocialsocialmedia-115707_115594.png" alt="30px" height="35px"></a>
+        <a href="http://www.facebook.com.ar"> <img src="../multimedia/facebook.png" alt="30px" height="35px"></a>
         <a href="httSp://www.instagram.com/cualquierverdu/"> <img src="../multimedia/instagram.png"alt="30px" height="35px"></a>
         <a href="http://www.twitter.com"> <img src="../multimedia/twitter.png" alt="30px" height="35px"></a>
     </footer>
