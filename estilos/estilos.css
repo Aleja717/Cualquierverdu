@@ -157,6 +157,12 @@
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #ecdbff;
   background-color: #cd5afd;
+
+}
+ ul li :hover{
+  font-size: 150%;
+  color: violet;
+  font-family:'Lobster', cursive;
 }
 
 
@@ -178,6 +184,7 @@
 main ul li :hover{
     font-size: 102%;
     color: red;
+    font-family: 'Lobster', cursive;
     }
 
   
@@ -249,10 +256,10 @@ main ul li :hover{
     color: black;
     font-family: 'Lobster', cursive;
     border-radius: 30px;
-    font-weight: 100;  
-    
-    
+    font-weight: 100;     
     }
+   
+
 .tipoBurguer{
     font-size: 25px;
     background-color: violet;
@@ -264,8 +271,14 @@ main ul li :hover{
     border-radius: 30px;
     font-weight: 100;
     margin: 1;
+    transition: flex;
+    transition: 2,5s;
     
     }
+    .tipoBurguer :hover{
+      font-size: 150%;
+      color: rgb(0, 0, 0);
+      font-family:'Lobster', cursive;}
 .nuggets{
   
 
@@ -290,6 +303,10 @@ main ul li :hover{
     margin: 1px;
     
 }
+.nuggetsDos :hover{
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+  font-family:'Lobster', cursive;}
 .quienesSomos{
     background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);
     width: 350px;
