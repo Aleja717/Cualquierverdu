@@ -19,7 +19,7 @@
 
      
      header{
-        display: inline-block;
+       box-sizing: 100%;
        
       
     }
@@ -29,8 +29,10 @@
 
 /*index*/    
 
-    
+
+  
 .nav {
+  width: 100%;
   background-color: #a4ca5d;
 }
 .navbar .navbar-brand {
@@ -208,17 +210,20 @@ main ul li :hover{
        border-radius: 30px;
        }
 .comelas{
-        display: flex;
+       
         justify-content: center;
+        align-items: center;
         background-color: #a4ca5d; color: black;
         font-family: 'Lobster', cursive;
         font-weight: 100;
         border-radius: 30px;
         border: solid;
         font-size: 35px;
+        border-left: 35px;
         }
 .comelas_dos{
-        display: inline-block;
+  display: inline-block;     
+  justify-content: center;
         background-color: violet;
         border-style: solid;
         font-family: 'Lobster', cursive;
@@ -374,12 +379,15 @@ footer{
     margin-bottom: 60px;
     margin-top: 100px;
     }
-.contactoForm{
-    display: inline-block; 
-    width: 50px;  
-    line-height: 30px;
+.formulario{
+   margin-top: 20px;
     font-family: 'Lobster', cursive;
     border: 30px;
+    background-color: #ce8ceb;
+    border-style:solid;
+    border-radius: 5%;
+    border-width: 2px;
+    margin-bottom: 20px;
     }
 .acepto{
     margin-top: 10px;
@@ -394,11 +402,32 @@ footer{
    /* tamaño tablet */
 
    @media screen and (max-width:756px) {
+ 
+
+.titulo{
+  font-size: 95px;
+}
+
+     header{
+     display:flex;
+      width: 100%;
+      margin: 3%;
+      flex-direction:column;
+       justify-content: center
+     }
+     .nav{
+       width: 100%;
+     }
     main ul li{
         flex-direction: column;
         padding: 2%;
         margin: 3px;
      }
+     header{
+
+      display: block;
+      border: none;}
+
      .bordemenu{
      border: none;
         
@@ -407,12 +436,15 @@ footer{
         margin-top: 50px;
         margin-bottom: 400px;
         border: none; 
+        width: 100%;
       }
     
       .tituloDos{
           margin-top: 50px;
           margin-bottom: 400px;
           border: none;
+          width: 100%;
+          
         
       }
   }
@@ -421,7 +453,23 @@ footer{
 /*tamaño celular*/
   
   @media screen and (max-width:500px) {
-  
+    
+    
+    
+    header{
+display: block;
+border: none;
+width: 100%;
+  }
+  .titulo{
+   
+   width: 100%;
+  }
+ 
+  .contacto{
+    display: block;
+    width: 100%;
+  }
         main ul li{
        flex-direction: column;
        padding: 2%;
@@ -432,9 +480,15 @@ footer{
          
          padding: 10px; 
           }
-        
+          .quienesSomos {
+            margin: 0;
+            width: 100%;
+            box-sizing: 90%;
+          }
+
+
           .titulo{
-            
+            width: 100%;
             padding: 50px;
             border: none;   
           }
