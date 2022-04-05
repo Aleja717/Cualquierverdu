@@ -460,10 +460,13 @@ footer{
 display: block;
 border: none;
 width: 100%;
+margin: 0;
   }
   .titulo{
    
    width: 100%;
+   margin: 0;
+  
   }
  
   .contacto{
@@ -487,15 +490,14 @@ width: 100%;
           }
 
 
-          .titulo{
-            width: 100%;
-            padding: 50px;
-            border: none;   
-          }
+           
+          
         
           .tituloDos{
             padding: 80px;
             border: none;
+            margin: 0;
+            font-size: 65px;
         }
 
         }
