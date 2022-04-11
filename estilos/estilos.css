@@ -466,7 +466,12 @@ footer{
       }
   }
   
-
+  .formulario{
+    width: 50%;
+    
+  }
+ 
+ 
 /*tamaño celular*/
   
   @media screen and (max-width:500px) {
