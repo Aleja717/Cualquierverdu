@@ -1,0 +1,53 @@
+$colorPrincipal: #a4ca5d;
+$colorSecundario: #cd5afd;
+
+/* BUCLES */
+
+@for $i from 1 through 3{
+    .h1#{i}{
+        font-size: 10px * $i;
+    }
+}
+
+
+
+/* MAPS */
+$redes: (
+    facebook: blue,
+    instagram: red,
+    twitter: white,
+);
+
+
+/*Creamos el bucle del mapa*/
+
+@each $red, $color in $redes  {
+    btn--#{$red} {
+        background-color: $color;
+    }
+}
+
+
+/* EXTEND */
+
+.boton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boton--aceptar{
+    @extend .boton;
+    background-color: red;
+}
+
+
+/* MIXINS */
+
+@mixin sizes($ancho, $alto) {
+    height: $alto;
+    width: $ancho;
+       
+}
+.sectionIndex{
+    @include sizes(500px, 200px )
+}
+

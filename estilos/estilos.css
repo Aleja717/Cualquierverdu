@@ -2,6 +2,10 @@
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
+   
+    
+        
+   
     }
     li{
         list-style: none;
@@ -10,10 +14,14 @@
 
     body{
         background-color: #dddad5;
+
     }
 
     html{
         background-color: #dddad5;   
+        border-color: #cd5afd;
+        background: radial-gradient(#cd5afd, #dddad5 );
+        
      }    
 
 
@@ -34,9 +42,11 @@
 .nav {
   width: 100%;
   background-color: #a4ca5d;
+  
 }
 .navbar .navbar-brand {
   color: #ecf0f1;
+  
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
@@ -204,6 +214,7 @@ main ul li :hover{
     border: solid;
     border-radius: 30px;
     border-width: 10px;
+    background-image:url(../multimedia/fondo.jpg);
     }
 
   
@@ -215,7 +226,8 @@ main ul li :hover{
        font-size: 90px;
        border: double;
        border-radius: 30px;
-       }
+       background-image:url(../multimedia/fondo.jpg); 
+      }
 .comelas{
        
         justify-content: center;
@@ -369,7 +381,6 @@ footer{
 .contacto{
     
     background-color:#a4ca5d;
-    display: inline;
     border: solid;
     color: black;
     font-family: 'Lobster', cursive;
@@ -414,6 +425,16 @@ footer{
   .cajaComo{
       padding: 15px;
       margin-top: 15px;
+  }
+  .carrete{
+    border: solid;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    border-style: double;
+  
+    color: black;
   }
 
    /* tamaño tablet */
@@ -521,5 +542,37 @@ margin: 0;
             margin: 0;
             font-size: 65px;
         }
+      }
+        
+ /* BUCLES */
+.col-1{
+  font-size: 10px;}
 
-        }
+.col-2{
+  font-size: 20px;}
+.col-3{
+  font-size: 30px;
+}
+
+/* MAPS */
+/*Creamos el bucle del mapa*/
+
+.btn--facebook{
+  background-color: blue;}
+.btn--instagram{
+  background-color: red;}
+.btn--twitter{
+  background-color: white;}
+
+  /* EXTEND */
+  .boton, .boton--aceptar {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: red;
+  }
+  /*MIXINS*/
+
+  .sectionIndex{
+    height: 200px;
+    width: 500px;
+}
