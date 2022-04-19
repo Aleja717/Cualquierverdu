@@ -1,13 +1,7 @@
 $colorPrincipal: #a4ca5d;
 $colorSecundario: #cd5afd;
 
-/* BUCLES */
 
-@for $i from 1 through 3{
-    .h1#{i}{
-        font-size: 10px * $i;
-    }
-}
 
 
 
@@ -47,7 +41,24 @@ $redes: (
     width: $ancho;
        
 }
-.sectionIndex{
-    @include sizes(500px, 200px )
+.derechos{
+    @include sizes(40px, 100% )
 }
 
+
+/*MAP GET*/
+
+$estilos: (    
+    tfuente: 25px,
+    color: violet,
+    border: solid,
+    border-color: black,
+    
+);
+
+.sectionIndex {
+  background-color: map-get($estilos, color);
+  font-size: map-get($estilos, tfuente );
+  border: map-get($estilos , border);
+  border-color: map-get($estilos, border-color);
+}
