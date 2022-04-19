@@ -52,7 +52,7 @@ $estilos: (
     tfuente: 25px,
     color: violet,
     border: solid,
-    border-color: black,
+    bordecolor: black,
     
 );
 
@@ -61,4 +61,14 @@ $estilos: (
   font-size: map-get($estilos, tfuente );
   border: map-get($estilos , border);
   border-color: map-get($estilos, border-color);
+}
+
+$cajaComo: (
+    margenAbajo: 15px,
+    borde: 15px, 
+);
+
+.cajaComo {
+    margin-top: map-get($cajaComo, margenAbajo );
+    padding: map-get($cajaComo, borde);
 }

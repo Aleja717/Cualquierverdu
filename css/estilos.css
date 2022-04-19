@@ -31,8 +31,11 @@ btn--twitter {
 .sectionIndex {
   background-color: violet;
   font-size: 25px;
-  border: solid;
-  border-color: black; }
+  border: solid; }
+
+.cajaComo {
+  margin-top: 15px;
+  padding: 15px; }
 
 .titulo {
   margin-top: 0;
