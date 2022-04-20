@@ -13,12 +13,11 @@
         
 
     body{
-        background-color: #dddad5;
-
-    }
+        background-image: url(../multimedia/fon.jpg);
+      }
 
     html{
-        background-color: #dddad5;   
+           
         border-color: #cd5afd;
         background: radial-gradient(#cd5afd, #dddad5 );
         
@@ -207,13 +206,12 @@
             }
         
           
-           
-            
+      .carr{
+        display: flex;
+        justify-content: center;
+      }
         
             
-             
-                
-        
         .titulo{
             margin-top: 0;
             font-family: 'Lobster', cursive;
@@ -225,9 +223,7 @@
             border-width: 10px;
             background-image:url(../multimedia/fondo.jpg);
             }
-        
-          
-        
+    
         .tituloDos{
                font-family: 'Lobster', cursive;
                display: flex;
@@ -249,6 +245,22 @@
                 font-size: 35px;
                 border-left: 35px;
                 }
+                .comelas {
+                  animation-duration: 2s;
+                  animation-name: slidein;
+                }
+                
+                @keyframes slidein {
+                  from {
+                    margin-left: 100%;
+                    width: 300%
+                  }
+                
+                  to {
+                    margin-left: 0%;
+                    width: 100%;
+                  }
+                }
         .comelas_dos{
           display: inline-block;     
           justify-content: center;
@@ -259,8 +271,12 @@
                 border-radius: 60px;
                 }
         
-              
-
+                img{
+                  display: flex;
+                  justify-content: center;
+                  margin-bottom: 60px;
+                }
+           
 .burguers{ 
     background-color:#a4ca5d;
     display: inline-block;
@@ -324,7 +340,7 @@
     width: 350px;
     height: 250px;
     overflow: scroll; 
-    display: inline-block;
+    display: block;
     margin-left: 190px;
     font-family: 'Lobster', cursive;
     font-size: large;
@@ -332,12 +348,25 @@
     font-weight: 150px;
        
 }
-
+.cajaQuienes{
+  display: flex;
+}
 
 footer{
  display: flex;
  justify-content: end;
  align-items: flex-end;
+}
+.redes{
+  display: flex;
+ justify-content: end;
+ align-items: flex-end;
+ 
+ 
+ }
+.redes :hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5)
     }
 .aclaraciones{
     justify-content: center;
@@ -386,7 +415,6 @@ footer{
     font-family: 'Lobster', cursive;
     border-radius: 30px;
     font-size: 32px;
-    
 }
 
 .carrete{
@@ -402,7 +430,9 @@ footer{
     margin-top: 50px;
     margin-bottom: 25px;
     font-family: 'Lobster', cursive;
+   
     }
+  
 .carreteProductos{
     margin-bottom: 60px;
     margin-top: 100px;
@@ -422,6 +452,10 @@ footer{
     margin-bottom: 10px;
     font-family: 'Lobster', cursive;
     }
+    .acepto :hover{
+      -webkit-transform: scale(1.5);
+  transform: scale(1.5)
+    }
   .cajaComo{
       padding: 15px;
       margin-top: 15px;
@@ -437,8 +471,7 @@ footer{
 .titulo{
   font-size: 95px;
 }
-
-     header{
+   header{
      display:flex;
       width: 100%;
       margin: 3%;
@@ -489,8 +522,12 @@ footer{
   
   @media screen and (max-width:500px) {
     
-    
-    
+    img{
+      width: 100%;
+    }
+    .cajaQuienes{
+      display: block;
+    }
     header{
 display: block;
 border: none;
@@ -524,10 +561,10 @@ margin: 0;
             box-sizing: 90%;
           }
 
-
-           
-          
-        
+.comelas_dos{
+  border: none;
+}
+     
           .tituloDos{
             padding: 80px;
             border: none;

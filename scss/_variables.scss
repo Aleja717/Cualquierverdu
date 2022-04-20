@@ -53,7 +53,6 @@ $estilos: (
     color: violet,
     border: solid,
     bordecolor: black,
-    
 );
 
 .sectionIndex {
@@ -62,6 +61,14 @@ $estilos: (
   border: map-get($estilos , border);
   border-color: map-get($estilos, border-color);
 }
+
+$fuente: (
+   tamaño: 90px,
+);
+.titulo {
+    font-size: map-get($fuente , tamaño);
+}
+
 
 $cajaComo: (
     margenAbajo: 15px,
@@ -72,3 +79,5 @@ $cajaComo: (
     margin-top: map-get($cajaComo, margenAbajo );
     padding: map-get($cajaComo, borde);
 }
+
+
