@@ -1,0 +1,58 @@
+.burguers{ 
+    background-color:#a4ca5d;
+    display: inline-block;
+    border: solid;
+    color: black;
+    font-family: 'Lobster', cursive;
+    border-radius: 30px;
+    font-weight: 100;     
+    }
+   
+
+.tipoBurguer{
+    font-size: 25px;
+    background-color: violet;
+    
+    color: black;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 100px;
+    border: solid;
+    border-radius: 30px;
+    font-weight: 100;
+    margin: 1;
+    transition: flex;
+    transition: 2,5s;
+    
+    }
+    .tipoBurguer :hover{
+      font-size: 150%;
+      color: rgb(0, 0, 0);
+      font-family:'Lobster', cursive;}
+.nuggets{
+  
+
+    background-color:#a4ca5d;
+    display: inline-block;
+    border: solid;
+    color: black;
+    font-family: 'Lobster', cursive;
+    border-radius: 30px;
+    font-weight: 100;
+    margin: 1;
+    }
+.nuggetsDos{
+    font-size: 25px;
+    background-color: violet;
+    color: black;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 100px;
+    border: solid;
+    border-radius: 30px;
+    font-weight: 100;   
+    margin: 1px;
+    
+}
+.nuggetsDos :hover{
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+  font-family:'Lobster', cursive;}
