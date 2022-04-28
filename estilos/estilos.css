@@ -415,6 +415,7 @@ footer{
     font-family: 'Lobster', cursive;
     border-radius: 30px;
     font-size: 32px;
+   
 }
 
 .carrete{
@@ -446,7 +447,21 @@ footer{
     border-radius: 5%;
     border-width: 2px;
     margin-bottom: 20px;
+   
     }
+    .medio{
+      margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    border: 30px;
+    background-color: #ce8ceb;
+    border-style:solid;
+    border-radius: 5%;
+    border-width: 2px;
+    margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
 .acepto{
     margin-top: 10px;
     margin-bottom: 10px;
